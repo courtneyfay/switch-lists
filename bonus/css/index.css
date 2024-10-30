@@ -1,0 +1,19 @@
+.sweet {
+    color: hotpink;
+}
+
+.savory {
+    color: green;
+}
+
+.drinks {
+    color: blue;
+}
+
+a {
+    color: inherit;
+}
+
+.default {
+    color: orangered;
+}

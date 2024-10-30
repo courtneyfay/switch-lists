@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head>
+        <title>Switch Lists</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <h1>Halloween Recipe Ideas</h1>
+
+        <p>What type of recipes are you interested in?</p>
+        <div>
+            <input type="radio" id="sweet" name="recipes" value="SWEET"> 
+            <label for="sweet">Sweet Treats</label>
+        </div>
+        <div>
+            <input type="radio" id="savory" name="recipes" value="SAVORY">
+            <label for="savory">Savory Eats</label>
+        </div>
+        <div>
+            <input type="radio" id="drinks" name="recipes" value="DRINKS">
+            <label for="drinks">Drinks</label>
+        </div>
+
+        <button id="recipe-button" onclick="switchLists()">Show me ideas</button>
+
+        <ul id="recipe-list"></ul>
+          
+        <script src="js/index.js"></script> 
+    </body>
+</html>
